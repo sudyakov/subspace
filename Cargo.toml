@@ -1,18 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/*",
-    "domains/client/*",
-    "domains/pallets/*",
-    "domains/primitives/*",
-    "domains/runtime/*",
-    "domains/service",
-    "domains/test/runtime/*",
-    "domains/test/service",
-    "shared/*",
-    "test/subspace-test-client",
-    "test/subspace-test-runtime",
-    "test/subspace-test-service",
+    "crates/subspace-core-primitives",
+    "crates/subspace-farmer",
+    "crates/subspace-farmer-components"
 ]
 exclude = [
     # TODO: We need to figure out what to do with sp-lightclient before unlocking it again
